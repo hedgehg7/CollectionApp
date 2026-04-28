@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/android:colorBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/detailImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="#CCCCCC"/>
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/descText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnBackground"/>
+
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/profitText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnBackground"/>
+
+        <TextView
+            android:id="@+id/daysText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnBackground"/>
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Редактировать"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

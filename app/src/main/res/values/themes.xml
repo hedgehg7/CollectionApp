@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Application" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основной цвет -->
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Верхняя панель -->
+        <item name="android:statusBarColor">#F57C00</item>
+
+        <!-- Фон -->
+        <item name="android:windowBackground">#FFFFFF</item>
+
+    </style>
+</resources>
